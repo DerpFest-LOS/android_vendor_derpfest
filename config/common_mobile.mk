@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
+# FaceEnroll - Settings RRO
+PRODUCT_PACKAGES += \
+    FaceEnrollSettingsOverlay
+
 # Legal
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.lineagelegal.url=https://lineageos.org/legal
