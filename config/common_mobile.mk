@@ -22,20 +22,20 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
-    TrebuchetQuickStepGo
+    DerpLauncherQuickStepGo
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    TrebuchetQuickStepGo
+    DerpLauncherQuickStepGo
 else
 PRODUCT_PACKAGES += \
-    TrebuchetQuickStep
+    DerpLauncherQuickStep
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    TrebuchetQuickStep
+    DerpLauncherQuickStep
 endif
 
 PRODUCT_PACKAGES += \
-    TrebuchetOverlay
+    DerpLauncherOverlay
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -108,6 +108,5 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    LineageBlackTheme \
     ThemePicker \
     ThemesStub
