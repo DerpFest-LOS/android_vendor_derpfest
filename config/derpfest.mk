@@ -65,6 +65,7 @@ endif
 # Extra packages
 PRODUCT_PACKAGES += \
     BatteryStatsViewer \
+    SettingsIntelligenceGooglePrebuilt \
     DerpWalls \
     FossifyGallery \
     GameSpace \
@@ -101,8 +102,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 # GMS
 WITH_GMS := true
-$(call inherit-product-if-exists, vendor/google/gms/config.mk)
-$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
 
 
 # Pixel Framework
