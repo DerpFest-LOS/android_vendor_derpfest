@@ -100,6 +100,9 @@ endif
 # Don't dexpreopt prebuilts. (For GMS).
 DONT_DEXPREOPT_PREBUILTS := true
 
+# Google Faceunlock
+$(call inherit-product, vendor/google/faceunlock/device.mk)
+
 # GMS
 WITH_GMS := true
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
