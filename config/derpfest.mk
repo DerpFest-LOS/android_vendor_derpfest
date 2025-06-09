@@ -74,7 +74,8 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     Panic \
     Prospect \
-    Ripple
+    Ripple \
+    TurboAdapter
 
 # ColumbusService
 ifneq ($(TARGET_SUPPORTS_QUICK_TAP),false)
