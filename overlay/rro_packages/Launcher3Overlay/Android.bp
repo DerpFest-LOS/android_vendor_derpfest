@@ -4,10 +4,6 @@
 //
 
 runtime_resource_overlay {
-<<<<<<<< HEAD:overlay/rro_packages/Launcher3Overlay/Android.bp
     name: "Launcher3Overlay",
-========
-    name: "DerpLauncherOverlay",
->>>>>>>> 76a25460 (May the GOD bless my ancestors...):overlay/rro_packages/DerpLauncherOverlay/Android.bp
     product_specific: true,
 }
